@@ -1,0 +1,49 @@
+.App {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.editor-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+.editor-form input,
+.editor-form textarea {
+  width: 100%;
+  margin: 15px 0;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.editor-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.notes-grid-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
+.note-item {
+  width: 290px;
+  padding: 15px;
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+  margin: 15px 5px;
+  transition: all 0.3s ease;
+}
+.note-item:hover {
+  box-shadow: 0 15px 20px 0 rgba(0,0,0,0.5);
+}
